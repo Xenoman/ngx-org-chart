@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   nodes: any = [
@@ -30,23 +30,23 @@ export class AppComponent {
               cssClass: 'ngx-org-head',
               image: 'assets/node.svg',
               title: 'Global Head of Business Operations',
-              childs: []
+              childs: [],
             },
             {
               name: 'Tara Walpert Levy',
               cssClass: 'ngx-org-vp',
               image: 'assets/node.svg',
               title: 'VP, Agency and Brand Solutions',
-              childs: []
+              childs: [],
             },
             {
               name: 'Ariel Bardin',
               cssClass: 'ngx-org-vp',
               image: 'assets/node.svg',
               title: 'VP, Product Management',
-              childs: []
-            }
-          ]
+              childs: [],
+            },
+          ],
         },
         {
           name: 'Jeff Dean',
@@ -59,11 +59,11 @@ export class AppComponent {
               cssClass: 'ngx-org-ceo',
               image: 'assets/node.svg',
               title: 'CEO, Google Health',
-              childs: []
-            }
-          ]
-        }
-      ]
+              childs: [],
+            },
+          ],
+        },
+      ],
     },
     {
       name: 'Sundar Pichai',
@@ -88,23 +88,23 @@ export class AppComponent {
               cssClass: 'ngx-org-head',
               image: 'assets/node.svg',
               title: 'Global Head of Business Operations',
-              childs: []
+              childs: [],
             },
             {
               name: 'Tara Walpert Levy',
               cssClass: 'ngx-org-vp',
               image: 'assets/node.svg',
               title: 'VP, Agency and Brand Solutions',
-              childs: []
+              childs: [],
             },
             {
               name: 'Ariel Bardin',
               cssClass: 'ngx-org-vp',
               image: 'assets/node.svg',
               title: 'VP, Product Management',
-              childs: []
-            }
-          ]
+              childs: [],
+            },
+          ],
         },
         {
           name: 'Jeff Dean',
@@ -117,11 +117,11 @@ export class AppComponent {
               cssClass: 'ngx-org-ceo',
               image: 'assets/node.svg',
               title: 'CEO, Google Health',
-              childs: []
-            }
-          ]
-        }
-      ]
+              childs: [],
+            },
+          ],
+        },
+      ],
     },
     {
       name: 'Sundar Pichai',
@@ -146,23 +146,23 @@ export class AppComponent {
               cssClass: 'ngx-org-head',
               image: 'assets/node.svg',
               title: 'Global Head of Business Operations',
-              childs: []
+              childs: [],
             },
             {
               name: 'Tara Walpert Levy',
               cssClass: 'ngx-org-vp',
               image: 'assets/node.svg',
               title: 'VP, Agency and Brand Solutions',
-              childs: []
+              childs: [],
             },
             {
               name: 'Ariel Bardin',
               cssClass: 'ngx-org-vp',
               image: 'assets/node.svg',
               title: 'VP, Product Management',
-              childs: []
-            }
-          ]
+              childs: [],
+            },
+          ],
         },
         {
           name: 'Jeff Dean',
@@ -175,11 +175,15 @@ export class AppComponent {
               cssClass: 'ngx-org-ceo',
               image: 'assets/node.svg',
               title: 'CEO, Google Health',
-              childs: []
-            }
-          ]
-        }
-      ]
-    }
+              childs: [],
+            },
+          ],
+        },
+      ],
+    },
   ];
+
+  public test($event: any) {
+    console.log('Item clicked: ', $event);
+  }
 }

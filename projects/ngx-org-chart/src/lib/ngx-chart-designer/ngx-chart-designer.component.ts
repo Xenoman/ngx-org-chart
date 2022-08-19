@@ -1,16 +1,21 @@
-import { Component, EventEmitter, HostBinding, Input, Output } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  HostBinding,
+  Input,
+  Output,
+} from '@angular/core';
 
 import { INode } from '../node';
 
 @Component({
   selector: 'ngx-chart-designer',
   templateUrl: './ngx-chart-designer.component.html',
-  styleUrls: ['./ngx-chart-designer.component.scss']
+  styleUrls: ['./ngx-chart-designer.component.scss'],
 })
 export class NgxChartDesignerComponent {
-
   @Input()
-  node: INode;
+  node: INode | undefined;
 
   @Input()
   hasParent = false;

@@ -5,12 +5,11 @@ import { INode } from '../node';
 @Component({
   selector: 'ngx-org-chart',
   templateUrl: './ngx-org-chart.component.html',
-  styleUrls: ['./ngx-org-chart.component.scss']
+  styleUrls: ['./ngx-org-chart.component.scss'],
 })
 export class NgxOrgChartComponent {
-
   @Input()
-  nodes: INode[];
+  nodes: INode[] | undefined;
 
   @Input()
   hasParent = false;

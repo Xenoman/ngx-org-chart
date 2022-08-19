@@ -1,6 +1,6 @@
 {
-  "name": "ngx-org-chart",
-  "version": "1.1.0",
+  "name": "@xenoman/ngx-org-chart",
+  "version": "1.1.14",
   "description": "Hierarchical Organization Chart",
   "keywords": [
     "org-chart",
@@ -10,7 +10,7 @@
     "hierarchical chart",
     "angular",
     "ng",
-    "angular 8"
+    "angular 14"
   ],
   "author": "Mümin Celal Pinar",
   "license": "MIT",
@@ -19,14 +19,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mumincelal/ngx-org-ui.git"
+    "url": "https://github.com/Xenoman/ngx-org-ui.git"
   },
   "bugs": {
     "url": "https://github.com/mumincelal/ngx-org-ui/issues"
   },
   "homepage": "https://github.com/mumincelal/ngx-org-ui",
   "peerDependencies": {
-    "@angular/common": "^8.2.0",
-    "@angular/core": "^8.2.0"
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }
